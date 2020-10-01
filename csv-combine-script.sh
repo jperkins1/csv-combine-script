@@ -2,5 +2,5 @@
 
 read -p "Where are your images stored? " directory
 
-awk -f script.awk $directory/* > output.csv
+awk -f script.awk $directory/* > $directory/output.csv
 
