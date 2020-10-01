@@ -13,5 +13,6 @@ chmod a+x macos-csv-combine-script.sh
 ./macos-csv-combine-script.sh
 ```
 
-You'll have to enter your password, 
-Enter the directory where your CSV files are stored, and press enter. That will produce a file called `output.csv` that will contain the 3rd column of all the CSV files in the directory you specified.
+Keep an eye on the terminal window, as you'll be prompted for your password and to press "RETURN" at a certain point. 
+
+When prompted later in the script, enter the directory where your CSV files are stored, and press enter. That will produce a file called `output.csv` that will contain the 3rd column of all the CSV files in the directory you specified.
