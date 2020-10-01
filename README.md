@@ -4,9 +4,10 @@ This script is meant to combine files from multiple different CSV files into one
 
 # Instructions for Use
 
-Once you have the code on your local machine, either from the `git clone` command or through the download button on Github, open a terminal and enter the following commands
+Open a terminal and enter the following commands
 
 ```
+git clone https://github.com/jperkins/csv-combine-script/
 cd csv-combine-script/
 chmod a+x csv-combine-script.sh
 ./csv-combine-script.sh
