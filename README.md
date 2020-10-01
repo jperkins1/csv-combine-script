@@ -4,13 +4,14 @@ This script is meant to combine files from multiple different CSV files into one
 
 # Instructions for Use
 
-Open a terminal and enter the following commands
+Open a terminal and enter the following commands:
 
 ```
 git clone https://github.com/jperkins/csv-combine-script/
 cd csv-combine-script/
-chmod a+x csv-combine-script.sh
-./csv-combine-script.sh
+chmod a+x macos-csv-combine-script.sh
+./macos-csv-combine-script.sh
 ```
 
+You'll have to enter your password, 
 Enter the directory where your CSV files are stored, and press enter. That will produce a file called `output.csv` that will contain the 3rd column of all the CSV files in the directory you specified.
