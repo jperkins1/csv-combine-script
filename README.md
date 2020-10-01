@@ -7,7 +7,7 @@ This script is meant to combine files from multiple different CSV files into one
 Open a terminal and enter the following commands:
 
 ```
-git clone git://github.com/jperkins/csv-combine-script/
+git clone git://github.com/jperkins1/csv-combine-script/
 cd csv-combine-script/
 chmod a+x macos-csv-combine-script.sh
 ./macos-csv-combine-script.sh
