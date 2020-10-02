@@ -4,6 +4,8 @@ This script is meant to combine files from multiple different CSV files into one
 
 # Instructions for Use
 
+
+
 Open a terminal and enter the following commands:
 
 ```
