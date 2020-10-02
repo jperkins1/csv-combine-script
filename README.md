@@ -16,7 +16,7 @@ git clone git://github.com/jperkins1/csv-combine-script/
 mv csv-combine-script /Users/$(whoami)/Desktop/
 cd /Users/$(whoami)/Desktop/csv-combine-script/
 chmod a+x macos-homebrew-csv-combine-script.sh csv-combine-script.sh
-./macos-csv-combine-script.sh
+./macos-homebrew-csv-combine-script.sh
 ```
 
 Keep an eye on the terminal window, as you'll be prompted for your password and to press "RETURN" at a certain point. 
