@@ -2,14 +2,16 @@
 
 This script is meant to combine files from multiple different CSV files into one output file using `awk`. Feel free to edit to suit your needs. 
 
+# Before You Start
+You'll need to get some tools from Apple first. To do that, you can click on [this](https://developer.apple.com/download/more/) link, sign in with your Apple ID, and choose "Command Line Tools for Xcode 12". Once that downloads, it should open automatically. Double click the box in the window that pops up to start the installation process. 
+
+Follow the installation instructions, then proceed to the instructions below.
+
 # Instructions for Use
-
-
 
 Open a terminal and enter the following commands:
 
 ```
-xcode-select --install
 git clone git://github.com/jperkins1/csv-combine-script/
 cd csv-combine-script/
 chmod a+x macos-csv-combine-script.sh
