@@ -16,5 +16,5 @@ brew install gawk
 read -p "Where are your images stored? " directory
 
 # Creating the output.csv file with the filenames and executing the Gawk script (also cloned from Github) to put the 3rd column into the file under each respective filename.
-awk -F, 'FNR == 1{ print FILENAME}' ORS=',' $directory/*.txt > $directory/output.csv
-awk -f script.awk $directory/*.csv >> $directory/output.txt
+awk -F, 'FNR == 1{ print FILENAME}' ORS=',' $directory/*.csv > $directory/output.csv
+awk -f /Users/$(whoami)/Desktop/csv-combine-script/script.awk $directory/*.csv >> $directory/output.csv
