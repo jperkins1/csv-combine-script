@@ -1,20 +1,18 @@
 #!/bin/bash
 
-# Installing Homebrew
+# Ensuring that the Command Line Tools are installed. 
 xcode-select --install
 
+# Installing Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+# Updating the repositories that Brew is looking at
 brew update
+
+# Tapping the Homebrew Cask to get access to the software
 brew tap homebrew/cask
 
 # Installing Gawk
 brew install gawk
 
-
-# Asking for user input on where the CSV files are stored
-read -p "Where are your files stored? (drag and drop from Finder) " directory
-
-# Creating the output.csv file with the filenames and executing the Gawk script (also cloned from Github) to put the 3rd column into the file under each respective filename.
-awk -F, 'FNR == 1{ print FILENAME,"\n"}' ORS=',' $directory/*.txt > $directory/output.csv
-awk -f /Users/$(whoami)/Desktop/csv-combine-script/script.awk $directory/*.txt >> $directory/output.csv
+echo "You're all set! You should be able to finish the instructions on the Github page."
