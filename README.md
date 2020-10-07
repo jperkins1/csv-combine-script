@@ -26,5 +26,6 @@ When prompted later in the script, enter the directory where your CSV files are 
 When you want to run this later, open the `csv-combine-script` folder on your desktop, right-click on the `csv-combine-script.sh` file and click "Open With". Click Other. Check the box that says "Always Open With" and choose "All Applications" from the menu. Now, navigate down to "Terminal". Now, you can double click that file and it will open in Terminal so you can do this with whatever you might need. 
 
 # Important Info
-- 
-- None of your original files will be altered. 
+- The script will look for a file called `script.awk` that downloads with the script. The way this is set up, theyll both be in a folder on your Desktop, and that's where the script is set to look. If you move them, you'll have to change the script to look for the `scrpt.awk` file somewhere else. 
+- None of your original files will be altered. This will just create new CSV files from your older TXT files. 
+- This may not work if you are trying to execute this script on files on a server or NAS. You may want to copy the files to your local machine. 
