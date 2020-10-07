@@ -15,8 +15,8 @@ Open a terminal and enter the following commands:
 git clone git://github.com/jperkins1/csv-combine-script/
 mv csv-combine-script /Users/$(whoami)/Desktop/
 cd /Users/$(whoami)/Desktop/csv-combine-script/
-chmod a+x macos-homebrew-csv-combine-script.sh csv-combine-script.sh
-./macos-homebrew-csv-combine-script.sh
+chmod a+x macos-homebrew-script.sh csv-combine-script.sh
+./macos-homebrew-script.sh
 ```
 
 Keep an eye on the terminal window, as you'll be prompted for your password and to press "RETURN" at a certain point. 
@@ -24,3 +24,7 @@ Keep an eye on the terminal window, as you'll be prompted for your password and 
 When prompted later in the script, enter the directory where your CSV files are stored, and press enter. That will produce a file called `output.csv` that will contain the 3rd column of all the CSV files in the directory you specified.
 
 When you want to run this later, open the `csv-combine-script` folder on your desktop, right-click on the `csv-combine-script.sh` file and click "Open With". Click Other. Check the box that says "Always Open With" and choose "All Applications" from the menu. Now, navigate down to "Terminal". Now, you can double click that file and it will open in Terminal so you can do this with whatever you might need. 
+
+# Important Info
+- 
+- None of your original files will be altered. 
